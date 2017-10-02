@@ -13,13 +13,13 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
     var myName = prompt('Tell me who you are!');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Is this a cat, ' + myName;
+    myHeading.textContent = 'Is this a cat, ' + myName + '?';
 }
 if (!localStorage.getItem('name')) {
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Is this a cat, ' + storedName;
+    myHeading.textContent = 'Is this a cat, ' + storedName + '?';
 }
 myButton.onclick = function () {
     setUserName();
