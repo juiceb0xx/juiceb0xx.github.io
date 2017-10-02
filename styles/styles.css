@@ -1,0 +1,41 @@
+html{
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+  }
+h1{
+    color: #6A138B; 
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+  }
+h3{
+    color: #500E68;
+    font-size: 30px;
+    text-align: center;
+}
+body{
+    width: 600px;
+    margin: 50px auto;
+    background-color: #E3F0DE;
+    padding: 25px 25px 25px 25px;
+    border: 2px dashed black;
+  }  
+p{
+    color: #6C2C97;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+ul{
+    list-style-position: inside;
+    color: #6C2C97;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: auto 210px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
